@@ -330,6 +330,10 @@
 	color = "#a6b457"
 	taste_description = "boiled onions"
 
+/datum/reagent/consumable/soup/veggie/beet
+	color = "#8E3A59"
+	taste_description = "watery beets"
+
 /datum/reagent/consumable/soup/veggie/cabbage
 	color = "#859e56"
 	taste_description = "watery cabbage"

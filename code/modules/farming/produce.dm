@@ -389,3 +389,16 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 0)
 	dropshrink = 0.5
 	rotprocess = null
+
+/obj/item/reagent_containers/food/snacks/grown/beet
+	seed = /obj/item/seeds/beet
+	name = "sugarbeet"
+	icon_state = "beet"
+	filling_color = "#ededed"
+	bitesize = 3
+	foodtype = VEGETABLES|SUGAR
+	tastes = list("sugar" = 1)
+	list_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/sugar = 3)
+	grind_results = list(/datum/reagent/consumable/sugar = 6)
+	mill_result = /obj/item/reagent_containers/powder/sugar
+	rotprocess = 15 MINUTES
